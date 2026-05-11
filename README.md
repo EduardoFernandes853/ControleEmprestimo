@@ -1,10 +1,10 @@
-Sistema de Controle de Emprestimo de Equipamentos
+Sistema de Controle de Emprestimo de Equipamentos.
 Integrante
 Eduardo Antonio Fernandes de Sousa
 
 Descricao do problema:
 O projeto resolve a necessidade de organizar o fluxo de entrada e saida de materiais em um laboratorio academico. O foco e garantir que um equipamento nao seja emprestado para dois alunos ao mesmo tempo e manter um registro historico de todas as operacoes para fins de auditoria e inventario.
-Requisitos implementados
+Requisitos implementados:
 Cadastro de alunos e equipamentos no banco de dados.
 Listagem de itens disponiveis para consulta.
 Registro de emprestimo com validacao de disponibilidade.
@@ -17,7 +17,7 @@ Os artefatos estao inclusos na raiz do projeto:
 Casos de Uso: Define as interacoes do administrador com o sistema.
 Diagrama de Classes: Estrutura das entidades e camadas DAO.
 Diagrama de Sequencia: Detalhamento do processo de realizacao de um emprestimo.
-Modelo do banco de dados
+Modelo do banco de dados:
 O banco de dados foi estruturado em MySQL com as tabelas aluno, equipamento e emprestimo. O modelo relacional foi gerado via MySQL Workbench e respeita as chaves primarias e estrangeiras necessarias para a integridade dos dados.
 
 Como criar o banco MySQL:
